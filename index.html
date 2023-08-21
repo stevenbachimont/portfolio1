@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Steven BACHIMONT</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:100">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+<div class="title">Steven BACHIMONT</div>
+<div class="menu">
+  <a class="text-link" href="#section1">
+    <div class="text-container">
+      <div class="text"></div>
+    </div>
+  </a>
+  <a class="text-link" href="#section2">
+    <div class="text-container">
+      <div class="text"></div>
+    </div>
+  </a>
+  <a class="text-link" href="#section3">
+    <div class="text-container">
+      <div class="text"></div>
+    </div>
+  </a>
+</div>
+
+<div class="intro" id="intro">
+  <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+  <h1 class="title-intro delayed">WELCOME</h1>
+  <p class="delayed ">Iurgandoque salutis sine sine ingenii considerans ferebatur velut incitationem praetorio sed vertenda vexillum instar eius ut vexillum ingenii erigens Augustum ea eum velut eum adrogantis sine adversando Caesar tempestate actus iurgandoque creberrime consiliis Augustum alienae exaggerando efferatus incertum iurgandoque evibrabat Caesar erigens adrogantis considerans acrius fluminis ut cum mox rapidi efferatus adrogantis vexillum rapidi potius evibrabat aliquotiens erigens ferebatur ferebatur iras adrogantis mente maturitate mitigabat vel idque ipse altius creberrime rapidi irrevocabili creberrime mente vel irrevocabili discrimina ad respectu ad rabiem erigens velut exaggerando qua praesens eius adfectans ingenii qua mox sed praetorio adfectans mente mente contumaciae principum vel adfectans.</p>
+</div>
+
+<div class="section1" id="section1">
+  <h2>Développement WEB</h2>
+  <p>Iurgandoque salutis sine sine ingenii considerans ferebatur velut incitationem praetorio sed vertenda vexillum instar eius ut vexillum ingenii erigens Augustum ea eum velut eum adrogantis sine adversando Caesar tempestate actus iurgandoque creberrime consiliis Augustum alienae exaggerando efferatus incertum iurgandoque evibrabat Caesar erigens adrogantis considerans acrius fluminis ut cum mox rapidi efferatus adrogantis vexillum rapidi potius evibrabat aliquotiens erigens ferebatur ferebatur iras adrogantis mente maturitate mitigabat vel idque ipse altius creberrime rapidi irrevocabili creberrime mente vel irrevocabili discrimina ad respectu ad rabiem erigens velut exaggerando qua praesens eius adfectans ingenii qua mox sed praetorio adfectans mente mente contumaciae principum vel adfectans.</p>
+</div>
+
+<div class="section2" id="section2">
+  <h2>Arts Numériques</h2>
+  <p>Iurgandoque salutis sine sine ingenii considerans ferebatur velut incitationem praetorio sed vertenda vexillum instar eius ut vexillum ingenii erigens Augustum ea eum velut eum adrogantis sine adversando Caesar tempestate actus iurgandoque creberrime consiliis Augustum alienae exaggerando efferatus incertum iurgandoque evibrabat Caesar erigens adrogantis considerans acrius fluminis ut cum mox rapidi efferatus adrogantis vexillum rapidi potius evibrabat aliquotiens erigens ferebatur ferebatur iras adrogantis mente maturitate mitigabat vel idque ipse altius creberrime rapidi irrevocabili creberrime mente vel irrevocabili discrimina ad respectu ad rabiem erigens velut exaggerando qua praesens eius adfectans ingenii qua mox sed praetorio adfectans mente mente contumaciae principum vel adfectans.</p>
+</div>
+
+<div class="section3" id="section3">
+  <h2>A propos</h2>
+  <p>Iurgandoque salutis sine sine ingenii considerans ferebatur velut incitationem praetorio sed vertenda vexillum instar eius ut vexillum ingenii erigens Augustum ea eum velut eum adrogantis sine adversando Caesar tempestate actus iurgandoque creberrime consiliis Augustum alienae exaggerando efferatus incertum iurgandoque evibrabat Caesar erigens adrogantis considerans acrius fluminis ut cum mox rapidi efferatus adrogantis vexillum rapidi potius evibrabat aliquotiens erigens ferebatur ferebatur iras adrogantis mente maturitate mitigabat vel idque ipse altius creberrime rapidi irrevocabili creberrime mente vel irrevocabili discrimina ad respectu ad rabiem erigens velut exaggerando qua praesens eius adfectans ingenii qua mox sed praetorio adfectans mente mente contumaciae principum vel adfectans.</p>
+  <div id="app">   <!--formulaire de contact-->
+    <h2>Pour me contacter :</h2>
+    <form>
+      <label for="nom">Nom :</label>
+      <input class="nom" type="text" id="nom" v-model="nom" required><br><br>
+      <label for="email">Email :</label>
+      <input class="email" type="email" id="email" v-model="email" required><br><br>
+      <label for="message">Message :</label><br>
+      <textarea class="message" v-model="message" rows="4" cols="50" required></textarea><br><br>
+      <button class="submitform" @click.prevent="submitForm">Envoyer</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
