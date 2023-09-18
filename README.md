@@ -1,0 +1,11 @@
+# siteweb
+Steven BACHIMONT
+
+plutot un portfolio en devenir
+c'est un travail en cours,
+plus sur la forme que le fond.
+
+un peu comme une commande du client que je suis pour moi même.
+le contenu sera ajouté par le "client".
+
+j'avence doux-cement.
