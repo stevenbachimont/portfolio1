@@ -11,6 +11,7 @@
   <meta property="og:image" content="">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:100">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
@@ -44,6 +45,36 @@
 <div class="section1" id="section1">
   <h2>Développement WEB</h2>
   <p>Formation de développeur web et appweb prévue en 2024 à la Wild Code School :-)</p>
+
+  <!-- Bouton 1 -->
+  <button id="btn1" class="modal-btn">HTML & CSS</button>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>HTML & CSS</h2>
+      <p>6 mois d'expérience</p>
+    </div>
+  </div>
+
+  <!-- Bouton 2 -->
+  <button id="btn2" class="modal-btn">Vue.js</button>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h2>Vue.js</h2>
+      <p>6 mois d'expérience</p>
+    </div>
+  </div>
+
+  <!-- Bouton 3 -->
+  <button id="btn3" class="modal-btn">Java Script</button>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <h2>Java Script</h2>
+      <p>6 mois d'expérience</p>
+    </div>
+  </div>
 </div>
 
 <div class="section2" id="section2">
@@ -71,6 +102,7 @@
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/modal.js"></script>
 
 <script>
   window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
