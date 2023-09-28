@@ -1,10 +1,10 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Steven",
+  "name": "BACHIMONT",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
-    "sizes": "192x192"
+    "sizes": "460x460"
   }],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#fafafa",
