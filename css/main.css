@@ -69,7 +69,7 @@ body {
 .intro {
   height: 100vh;
   padding: 10%;
-  background: url("https://wallpapercave.com/uwp/uwp3544264.png") no-repeat left top;
+  background: url("https://ktaownmdsyojdwwqiywp.supabase.co/storage/v1/object/sign/central_data/darckcity.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjZW50cmFsX2RhdGEvZGFyY2tjaXR5LnBuZyIsImlhdCI6MTY5ODEzMTQwMiwiZXhwIjoxNzI5NjY3NDAyfQ.2TQzhqzSabz-m1qwVlThCDEj5gA2nirF1JoUj_DOZ4U&t=2023-10-24T07%3A10%3A00.704Z") no-repeat left top;
   background-size: cover;
   color: #e164ea;
   display: flex;
@@ -208,6 +208,7 @@ body {
   font-size: 30px;
   overflow: hidden;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .submitform:hover {
