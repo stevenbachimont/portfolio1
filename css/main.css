@@ -27,7 +27,6 @@ body {
   height: 10vh;
   width: 90%;
   margin: auto;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,6 +43,15 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
   transition-delay: 300ms;
+}
+
+.sous menu {
+  height: 10vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .text {
