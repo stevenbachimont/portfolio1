@@ -52,6 +52,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
@@ -68,7 +72,6 @@ body {
   text-decoration: #e5b2ed;
   color: #863e91;
 }
-
 
 .dud {
   color: #e164ea;
