@@ -63,7 +63,7 @@ class TextScramble {
 }
 
 let phrases = [
-  '<= MENU'
+  '<--- MENU'
 ];
 
 const textContainers = Array.from(document.querySelectorAll('.text-container'));
