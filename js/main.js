@@ -15,8 +15,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || '';
       const to = newText[i] || '';
-      const start = Math.floor(Math.random() * 100);
-      const end = start + Math.floor(Math.random() * 100);
+      const start = Math.floor(Math.random() * 500);
+      const end = start + Math.floor(Math.random() * 500);
       this.queue.push({ from, to, start, end });
     }
 
@@ -37,7 +37,7 @@ class TextScramble {
         complete++;
         output += to;
       } else if (this.frame >= start) {
-        if (!char || Math.random() < 0.01) {
+        if (!char || Math.random() < 0.05) {
           char = this.randomChar();
           this.queue[i].char = char;
         }
@@ -63,9 +63,7 @@ class TextScramble {
 }
 
 let phrases = [
-  'Développement WEB',
-  'Arts Numériques',
-  'A propos'
+  '<= MENU'
 ];
 
 const textContainers = Array.from(document.querySelectorAll('.text-container'));
@@ -82,7 +80,7 @@ const setTextAndContinue = () => {
         textContainers[counter].classList.remove('hide');
         setTextAndContinue();
       }
-    }, 30);
+    }, 100);
   });
 };
 
