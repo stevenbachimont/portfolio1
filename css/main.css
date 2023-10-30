@@ -82,8 +82,8 @@ body {
 }
 
 #logo:hover .menu2 a:hover {
-  transform: scale(1.4) translatex(15px);
-  font-size: 25px;
+  transform: scale(1.4) translatex(25px);
+  font-size: 20px;
   z-index: 10000;
 }
 
@@ -103,26 +103,15 @@ body {
   transform: translateY(0);
 }
 
-.menu {
-  height: 10vh;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .text-container {
   margin-bottom: 30px;
   padding: 10px 10px;
-}
-
-.text-container:hover {
-  color: #050f1a;
-  background: rgba(213, 1, 246, 0.12);
+  position: fixed;
+  top: 25px;
+  left: 100px;
+  background: rgba(31, 30, 31, 0.6);
   border-radius: 3px;
   box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
-  transition-delay: 300ms;
 }
 
 .bloct {
@@ -194,7 +183,7 @@ body {
 }
 
 .section0 {
-  height: 30vh;
+  height: 10vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
