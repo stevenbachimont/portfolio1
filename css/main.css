@@ -88,30 +88,22 @@ body {
   z-index: 10000;
 }
 
-.title {
-  position: relative;
+.fleche {
+  position: fixed;
+  top: 32px;
+  left: 80px;
   font-size: 20px;
   font-weight: bold;
   color: #e164ea;
-  opacity: 0;
-  transform: translateY(-0px);
-  transition: opacity 10s, transform 10s;
-}
-
-.title.visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
-.text-container {
-  margin-bottom: 3px;
-  padding: 10px 10px;
-  position: fixed;
-  top: 25px;
-  left: 100px;
-  background: rgba(31, 30, 31, 0.6);
-  border-radius: 3px;
-  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+.title {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e164ea;
+  opacity: 1;
 }
 
 .bloct {
@@ -133,17 +125,6 @@ body {
 .text-link {
   text-decoration: #e5b2ed;
   color: #863e91;
-}
-
-.text {
-  font-weight: 100;
-  font-size: 15px;
-  color: #e06de8;
-  margin-top: 0;
-}
-
-.text:hover {
-  color: #ffffff;
 }
 
 .dud {
