@@ -117,9 +117,9 @@ body {
 
 .title {
   position: relative;
-  top: 60%;
-  left: 40%;
-  font-size: 3vw;
+  top: auto;
+  left: 30%;
+  font-size: 5vw;
   font-weight: bold;
   color: #e164ea;
   opacity: 1;
