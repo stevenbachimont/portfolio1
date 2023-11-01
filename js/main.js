@@ -1,5 +1,3 @@
-
-
 // Fonction pour le défilement en douceur
 function smoothScroll(target, duration) {
   const targetElement = document.querySelector(target);
