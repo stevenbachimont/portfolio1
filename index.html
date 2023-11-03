@@ -38,15 +38,16 @@
 <div class="intro" id="intro">
 
   <h1 class="title-intro delayed">WELCOME</h1>
-  <p class="delayed ">En toute transparence. Je suis en ligne mais en cours de construction. Venez, revenez, surveillez l'évolution...</p>
+  <p class="delayed ">En construction permanente, cet espace à voccation à vous proposer tous mes travaux techniques et artistiques numériques.</p>
 </div>
 <div class="section1" id="section1">
   <div class="bloct">
     <h2>Développement WEB</h2>
   </div>
   <div class="bloc1">
+    <p>Actuellement autodidacte, j'éxplore, je découvre l'art de mettre en page et en action mes idées.</p>
+    <p>En frontend et en backend, j'invente, reproduit et teste des principes fondamentaux du développement web.</p>
     <p>Formation de développeur web et appweb prévue en 2024 à la Wild Code School :-)</p>
-
     <!-- Bouton 1 -->
     <button id="btn1" class="modal-btn">HTML & CSS</button>
     <div id="modal1" class="modal">
@@ -94,9 +95,17 @@
     <h2>A propos</h2>
   </div>
   <div class="bloc1">
-    <p>C'est là que je dois parler de moi.</p>
+    <p>Artiste de cirque de formation, une blessure mettant fin à une courte carrière de trapéziste, j’ai enseigné les arts du cirque et je me suis intéressé au cirque adapté en intervenant en milieu carcéral et psychiatrique.
+      En parallèle j’ai développé une carrière de musicien pour les spectacles puis j’ai proposé des projets audiovisuels et interactifs d'arts numériques.
+      J’ai aussi vécu de belles expériences plus institutionnelles en travaillant en startup avec des architectes ou comme aujourd’hui en école de commerce.
+      Lors de mon installation à Nantes, j’ai découvert Stéréolux et le Lieu Unique chez qui j’ai développé des  compétences de technique audiovisuelle.
+      Maintenant place à une formation de développeur web et ensuite, en selle Gisèle..</p>
+    <button id="btn4" class="modal-btn">Pour me contacter :</button>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
     <div id="app">   <!--formulaire de contact-->
-      <h2>Pour me contacter :</h2>
+      <h2>Pour me contacter </h2>
       <form>
         <label for="nom">Nom :</label>
         <input class="nom" type="text" id="nom" v-model="nom" required><br><br>
@@ -106,6 +115,8 @@
         <textarea class="message" v-model="message" rows="4" cols="50" required></textarea><br><br>
         <button class="submitform" @click.prevent="submitForm">Envoyer</button>
       </form>
+    </div>
+      </div>
     </div>
   </div>
 </div>

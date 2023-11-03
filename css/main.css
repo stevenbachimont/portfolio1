@@ -222,6 +222,11 @@ canvas {
   border: solid 0;
 }
 
+@media (max-width: 900px) {
+  canvas {
+    display: none;
+  }
+}
 
 .section3 {
   height: 100vh;
