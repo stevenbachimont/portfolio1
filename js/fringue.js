@@ -136,8 +136,6 @@ function draw() {
     ctx.clearRect(0,0,canvas.width, canvas.height);
     ctx.beginPath();
     ctx.strokeStyle = "rgba(221,149,232,0.98)";
-    ctx.shadowColor = "rgba(221, 149, 232, 0.8)";
-    ctx.shadowBlur = 10;
 
     // Loop thru each node's connections
     for (let a = 0; a < pos.length; a++) {
