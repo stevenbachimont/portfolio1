@@ -135,6 +135,7 @@ function draw() {
     // Clear canvas, begin making a line drawing
     ctx.clearRect(0,0,canvas.width, canvas.height);
     ctx.beginPath();
+    ctx.strokeStyle = "red";
 
     // Loop thru each node's connections
     for (let a = 0; a < pos.length; a++) {
