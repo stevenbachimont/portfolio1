@@ -213,7 +213,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(0, 0, 0);
   color: #e164ea;
   display: flex;
   flex-direction: column;
@@ -239,7 +239,7 @@ canvas {
   padding-right: 10%;
   padding-top: 1%;
   padding-bottom: 2%;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(131, 131, 131);
   color: #e164ea;
   display: flex;
   flex-direction: column;

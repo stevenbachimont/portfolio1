@@ -1,11 +1,11 @@
 
 let timestep        = .005;
-let steps_per_frame = 10;
-let node_mass       = 0.5;
-let gravity         = 6;
-let spring          = 1000;
-let damping         = .05;
-let max_strain      =  4;
+let steps_per_frame = 20;
+let node_mass       = .5;
+let gravity         = 10;
+let spring          = 5000;
+let damping         = .2;
+let max_strain      =  2;
 
 /* - - - Make Arrays for Positions, Velocities, and Connections - - - */
 
@@ -135,7 +135,7 @@ function draw() {
     // Clear canvas, begin making a line drawing
     ctx.clearRect(0,0,canvas.width, canvas.height);
     ctx.beginPath();
-    ctx.strokeStyle = "rgba(221,149,232,0.98)";
+    ctx.strokeStyle = "rgba(93,93,93,0.98)";
 
     // Loop thru each node's connections
     for (let a = 0; a < pos.length; a++) {
@@ -184,32 +184,3 @@ function remove_springs_near_mouse() {
 }
 
 
-/*
-
-- Notes -
-
-Each node has a 'number'
-
-// Example mesh with 2 nodes
-
-(node 0) - - - - - - (node 1)
-
-node 0 is at x,y =  0, 0
-node 1 is at x,y = 42, 0
-
-pos = [
-   [0,  0],     // node 0: x =  0, y = 0
-   [42, 0],     // node 1: x = 42, y = 1
-]
-
-vel = [
-   [0, 0],      // node 0: vx = 0, vy = 0
-   [0, 0],      // node 1: vx = 0, vy = 0
-]
-
-mesh = [
-   [ [1, 42] ],   // node 0: connected to node 1 with rest length of 42
-   [ [0, 42] ],   // node 1: connected to node 0 with rest length of 42
-]
-
-*/
