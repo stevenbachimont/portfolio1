@@ -51,7 +51,27 @@
   z-index: auto;
 }
 
-.modal-btn:hover {
+
+ .modalien {
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  padding: 10px 14px;
+  font-size: 18px;
+  margin: 20px auto;
+  display: block;
+  min-width: 150px;
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  z-index: auto;
+}
+
+.modal-btn:hover, .modalien:hover {
   color: #050f1a;
   background: #d501f6;
   border-radius: 3px;

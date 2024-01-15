@@ -54,7 +54,7 @@ body {
   opacity: 0;
   transform: translateY(0px);
   animation: fadeInUp 1s 0s forwards;
-  z-index: 10000;
+  z-index: 1000000;
 }
 
 @keyframes fadeInUp {
@@ -75,7 +75,7 @@ body {
   border-radius: 3px;
   background-color: #000000;
   box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
-  z-index: 10000;
+  z-index: 1000000;
 }
 
 .menu2 a {
@@ -83,14 +83,14 @@ body {
   transition: transform 0.3s;
   font-size: 16px;
   margin-bottom: 0px;
-  z-index: 10000;
+  z-index: 1000000;
 }
 
 #logo:hover .menu2 a:hover {
   transform: scale(1.4) translatex(25px);
   font-size: 20px;
   color: #e5b2ed;
-  z-index: 10000;
+  z-index: 1000000;
 }
 
 #logo:hover + .fleche {
@@ -130,22 +130,6 @@ body {
   opacity: 1;
 }
 
-.bloct {
-  position: relative;
-  top: 100px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.bloc1 {
-  position: relative;
-  top: 200px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .text-link {
   text-decoration: #e5b2ed;
   color: #863e91;
@@ -160,7 +144,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
-  background: url("https://ktaownmdsyojdwwqiywp.supabase.co/storage/v1/object/sign/central_data/darckcity.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjZW50cmFsX2RhdGEvZGFyY2tjaXR5LnBuZyIsImlhdCI6MTY5ODEzMTQwMiwiZXhwIjoxNzI5NjY3NDAyfQ.2TQzhqzSabz-m1qwVlThCDEj5gA2nirF1JoUj_DOZ4U&t=2023-10-24T07%3A10%3A00.704Z") no-repeat left top;
+  background: url("/asset/darckcity.png") no-repeat left top;
   background-size: cover;
   color: #e164ea;
   display: flex;
@@ -185,6 +169,23 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.bloct {
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc1 {
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .section0 {
@@ -218,7 +219,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 0;
+  z-index: -1;
   }
 
 canvas {
