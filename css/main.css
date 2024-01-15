@@ -144,7 +144,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
-  background: url("/asset/darckcity.png") no-repeat left top;
+  background: url("https://github.com/stevenbachimont/siteweb/blob/main/asset/darckcity.png") no-repeat left top;
   background-size: cover;
   color: #e164ea;
   display: flex;
