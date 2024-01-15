@@ -30,3 +30,7 @@ document.getElementById('btn3').addEventListener('click', function() {
 document.getElementById('btn4').addEventListener('click', function() {
   openModal('modal4');
 });
+
+document.getElementById('btn5').addEventListener('click', function() {
+  openModal('modal5');
+});
