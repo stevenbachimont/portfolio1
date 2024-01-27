@@ -32,7 +32,7 @@
   color: #d501f6;
 }
 
-.modal-btn {
+.modal-btn, .modal-btn2 {
   background-color: transparent;
   border: transparent;
   position: relative;
@@ -49,6 +49,14 @@
   overflow: hidden;
   transition: 0.2s;
   z-index: auto;
+}
+
+.modal-btn:hover, .modalien:hover, .modal-btn2:hover {
+    color: #050f1a;
+    background: #d501f6;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+    transition-delay: 200ms;
 }
 
  .modalien {
@@ -70,10 +78,4 @@
   z-index: auto;
 }
 
-.modal-btn:hover, .modalien:hover {
-  color: #050f1a;
-  background: #d501f6;
-  border-radius: 3px;
-  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
-  transition-delay: 200ms;
-}
+

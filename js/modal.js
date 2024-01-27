@@ -34,3 +34,7 @@ document.getElementById('btn4').addEventListener('click', function() {
 document.getElementById('btn5').addEventListener('click', function() {
   openModal('modal5');
 });
+
+document.getElementById('btn6').addEventListener('click', function() {
+  openModal('modal6');
+});

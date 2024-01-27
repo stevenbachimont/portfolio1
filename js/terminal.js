@@ -14,6 +14,12 @@ var data = [
   {
     action: 'type',
     strings: ['sudo run terminal'],
+    output: ' ',
+    postDelay: 3000
+  },
+  {
+    action: 'type',
+    strings: ['............................................'],
     output: document.querySelector('.output').innerHTML,
     postDelay: 3000
   },
