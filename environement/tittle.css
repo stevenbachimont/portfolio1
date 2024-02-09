@@ -1,0 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+
+.title {
+    position: relative;
+    top: 50px;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #e164ea;
+    opacity: 1;
+}

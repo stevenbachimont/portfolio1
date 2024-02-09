@@ -1,0 +1,354 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+html,
+body {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background: #2a2a2a;
+  height: 100%;
+}
+
+.lien {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color: #956a9b;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgba(240, 240, 240, 0.33);
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  transition: transform 0.3s;
+  z-index: 10000;
+}
+
+#logo img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 10000;
+}
+
+#logo:hover {
+  transform: rotate(360deg) scale(140%);
+  cursor: pointer;
+  color: #9d9d9d;
+  background: rgba(219, 114, 248, 0.64);
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  transition-delay: 100ms;
+  z-index: 10000;
+}
+
+.menu2 {
+  display: none;
+  position: sticky;
+  top: 50px;
+  left: 0;
+  color: #956a9b;
+  width: 100%;
+  margin: 2px;
+  padding: 10px 2px;
+  opacity: 0;
+  transform: translateY(0px);
+  animation: fadeInUp 1s 0s forwards;
+  z-index: 1000000;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(1px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#logo:hover .menu2 {
+  display: block;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 3px;
+  background-color: #000000;
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  z-index: 1000000;
+}
+
+.menu2 a {
+  display: block;
+  transition: transform 0.3s;
+  font-size: 16px;
+  margin-bottom: 0px;
+  z-index: 1000000;
+}
+
+#logo:hover .menu2 a:hover {
+  transform: scale(1.4) translatex(25px);
+  font-size: 20px;
+  color: #e5b2ed;
+  z-index: 1000000;
+}
+
+#logo:hover + .fleche {
+  display: none;
+}
+
+.fleche {
+  position: fixed;
+  top: 35px;
+  left: 70px;
+  font-size: 20px;
+  font-weight: initial;
+  color: #e164ea;
+  opacity: 1;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  position: relative;
+  top: auto;
+  left: 30%;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #e164ea;
+  opacity: 1;
+}
+
+.text-link {
+  text-decoration: #e5b2ed;
+  color: #863e91;
+}
+
+.dud {
+  color: #e164ea;
+}
+
+.intro {
+  height: 70vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  background: url("https://raw.githubusercontent.com/stevenbachimont/siteweb/main/asset/darckcity.png") no-repeat left top;
+  background-size: cover;
+  color: #ff00ff;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .box21.delayed {
+    display: none;
+  }
+}
+
+.title-intro {
+  font-size: 40px;
+  color: #9c27af;
+}
+
+.delayed {
+  opacity: 0;
+  transform: translateY(0px);
+  animation: fadeInUp 2s 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bloct {
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc1 {
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section0 {
+  height: 20vh;
+  background-color: rgb(31, 31, 31);
+  color: #e164ea;
+  display: flex;
+  flex-direction: row;
+}
+
+.section1 {
+  height: 150vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  background: rgb(31, 31, 31);
+  color: #e164ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 {
+  height: 80vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  background: rgb(59, 59, 59);
+  color: #e164ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+canvas {
+  position: absolute;
+  z-index: 10;
+  border: solid 0;
+}
+
+@media (max-width: 900px) {
+  canvas {
+    display: none;
+  }
+}
+
+.section3 {
+  height: 110vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background-color: rgb(31, 31, 31);
+  color: #e164ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section4 {
+  height: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  background-color: rgb(20, 15, 21);
+  color: #e164ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nom {
+  padding: 2px;
+  border-radius: 4px;
+  width: 90%;
+  border: 1px solid rgba(38, 38, 26, 0.88);
+  background: #956a9b;
+  resize: vertical;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0 5%;
+}
+
+.nom:hover {
+  color: #050f1a;
+  background: #d501f6;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  transition-delay: 200ms;
+}
+
+.email {
+  padding: 2px;
+  border-radius: 4px;
+  width: 90%;
+  border: 1px solid rgba(38, 38, 26, 0.88);
+  background: #956a9b;
+  resize: vertical;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0 5%;
+}
+
+.email:hover {
+  color: #050f1a;
+  background: #d501f6;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  transition-delay: 200ms;
+}
+
+.message {
+  padding: 2px;
+  border-radius: 4px;
+  width: 90%;
+  border: 1px solid rgba(38, 38, 26, 0.88);
+  background: #956a9b;
+  resize: vertical;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0 5%;
+}
+
+.message:hover {
+  color: #050f1a;
+  background: #d501f6;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  transition-delay: 200ms;
+}
+
+.submitform {
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  padding: 10px 20px;
+  color: #e164ea;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.submitform:hover {
+  color: #050f1a;
+  background: #d501f6;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+  transition-delay: 200ms;
+}
