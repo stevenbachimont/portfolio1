@@ -154,6 +154,12 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .box21.delayed {
+    display: none;
+  }
+}
+
 .title-intro {
   font-size: 40px;
   color: #9c27af;
@@ -197,7 +203,7 @@ body {
 }
 
 .section1 {
-  height: 100vh;
+  height: 150vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
@@ -209,7 +215,7 @@ body {
 }
 
 .section2 {
-  height: 100vh;
+  height: 80vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
@@ -233,7 +239,7 @@ canvas {
 }
 
 .section3 {
-  height: 100vh;
+  height: 110vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
@@ -246,7 +252,7 @@ canvas {
 }
 
 .section4 {
-  height: 20vh;
+  height: 10vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
