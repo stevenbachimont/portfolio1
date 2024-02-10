@@ -7,10 +7,10 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:100">
 	<link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
-	<link rel="stylesheet" href="desktop.css">
-	<link rel="stylesheet" href="button.css">
-	<link rel="stylesheet" href="loading.css">
-
+	<link rel="stylesheet" href="css/desktop.css">
+	<link rel="stylesheet" href="css/button.css">
+	<link rel="stylesheet" href="css/loading.css">
+	<link rel="stylesheet" href="css/contact.css">
 
 
 </head>
@@ -29,7 +29,9 @@
 	<div class="content">
 		<div class="custom-wrapper">
 			<p>MENU</p><br>
-			<button id="ouvrirdev">dev</button>
+			<button id="ouvrirdev">developpement web</button>
+			<button id="ouvrirartsnum">Arts Numeriques</button>
+			<button id="ouvrirapropos">A propos</button>
 		</div>
 	</div>
 </div>
@@ -52,9 +54,62 @@
 	<div class="content">
 		<div class="custom-wrapper">
 			<p>dev</p><br>
-			<button id="ouvrirVideo">Vidéo</button>
 			<button id="ouvrirWebsite">Tout Doux</button>
 			<button id="ouvrirSticky">Notes</button>
+		</div>
+	</div>
+</div>
+
+<div class="frame" id="artsnum">
+	<div class="topbar artsnum">
+		<div class="maxbtn"><span></span></div>
+		<div class="xbtn6">x</div>
+	</div>
+	<div class="content">
+		<div class="custom-wrapper">
+			<p>Arts Numériques</p><br>
+			<button id="ouvrirVideo">Vidéo</button>
+		</div>
+	</div>
+</div>
+
+<div class="frame" id="apropos">
+	<div class="topbar apropos">
+		<div class="maxbtn"><span></span></div>
+		<div class="xbtn7">x</div>
+	</div>
+	<div class="content">
+		<div class="custom-wrapper">
+			<p>A Propos</p><br>
+			<p>Artiste de cirque de formation, une blessure mettant fin à une courte carrière de trapéziste, j’ai enseigné les arts du cirque et je me suis intéressé au cirque adapté en intervenant en milieu carcéral et psychiatrique.
+				En parallèle j’ai développé une carrière de musicien pour les spectacles puis j’ai proposé des projets audiovisuels et interactifs d'arts numériques.
+				J’ai aussi vécu de belles expériences plus institutionnelles en travaillant en startup avec des architectes ou comme aujourd’hui en école de commerce.
+				Lors de mon installation à Nantes, j’ai découvert Stéréolux et le Lieu Unique chez qui j’ai développé des  compétences de technique audiovisuelle.
+				Maintenant place à une formation de développeur web et ensuite, en selle Gisèle..</p>
+			<button id="ouvrircontact">Contact</button>
+		</div>
+	</div>
+</div>
+
+<div class="frame" id="contact">
+	<div class="topbar contact">
+		<div class="maxbtn"><span></span></div>
+		<div class="xbtn8">x</div>
+	</div>
+	<div class="content">
+		<div class="custom-wrapper">
+			<div id="app">
+				<h2>Pour me contacter :</h2>
+				<form>
+					<label for="nom">Nom :</label>
+					<input class="nom" type="text" id="nom" v-model="nom" required><br><br>
+					<label for="email">Email :</label>
+					<input class="email" type="email" id="email" v-model="email" required><br><br>
+					<label for="message">Message :</label><br><br>
+					<textarea class="message" v-model="message" rows="4" cols="50" required></textarea><br><br>
+					<button class="submitform" @click.prevent="submitForm">Envoyer</button>
+				</form>
+			</div>
 		</div>
 	</div>
 </div>
@@ -65,7 +120,7 @@
 		<div onclick="stopVideo()" class="xbtn1">x</div>
 	</div>
 	<div class="content">
-		<iframe id="youtubeVideo1" width="560" height="315" src="https://www.youtube.com/embed/6oXvEbtx4L4?si=VhyKxW0fcQHnKmkf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01921679/src/qsrqxlu/zone/1/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="300" height="250" allow="autoplay; fullscreen"></iframe>
 	</div>
 </div>
 
@@ -90,10 +145,11 @@
 		</div>
 	</div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-<script  src="desktop.js"></script>
-<script src="youtubecontrol.js"></script>
-<script src="loading.js"></script>
+<script  src="js/desktop.js"></script>
+<script src="js/youtubecontrol.js"></script>
+<script src="js/loading.js"></script>
 <script src="dragtouch.js"></script>
+<script src="js/contact.js"></script>

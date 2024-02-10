@@ -32,7 +32,8 @@
     transition-delay: 200ms;
 }
 
-#ouvrirdev, #ouvrirVideo, #ouvrirWebsite, #ouvrirSticky {
+
+#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideo, #ouvrirWebsite, #ouvrirSticky {
     border: transparent;
     position: relative;
     padding: 10px 10px;
@@ -80,4 +81,29 @@
     box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
     transition-delay: 200ms;
 }
+
+#ouvrirartsnum:hover {
+    color: #050f1a;
+    background: #d501f6;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+    transition-delay: 200ms;
+}
+
+#ouvrirapropos:hover {
+    color: #050f1a;
+    background: #d501f6;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+    transition-delay: 200ms;
+}
+
+#ouvrircontact:hover {
+    color: #050f1a;
+    background: #d501f6;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+    transition-delay: 200ms;
+}
+
 
