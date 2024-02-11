@@ -33,7 +33,7 @@
 }
 
 
-#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideo, #ouvrirWebsite, #ouvrirSticky, #ouvrirpug {
+#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideo, #ouvrirtoutdoux, #ouvrirSticky, #ouvrirpug {
     border: transparent;
     position: relative;
     padding: 10px 10px;
@@ -66,7 +66,7 @@
     transition-delay: 200ms;
 }
 
-#ouvrirWebsite:hover {
+#ouvrirtoutdoux:hover {
     color: #050f1a;
     background: #d501f6;
     border-radius: 3px;

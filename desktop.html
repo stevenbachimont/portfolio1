@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Desktop</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:100">
 	<link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
@@ -54,7 +55,7 @@
 	<div class="content">
 		<div class="custom-wrapper">
 			<p>dev</p><br>
-			<button id="ouvrirWebsite">Tout Doux</button>
+			<button id="ouvrirtoutdoux">Tout Doux</button>
 			<button id="ouvrirpug">Pug Zone</button>
 			<button id="ouvrirSticky">Notes</button>
 		</div>
@@ -125,13 +126,14 @@
 	</div>
 </div>
 
-<div class="frame" id="website">
+<div class="frame" id="toutdoux">
 	<div class="topbar orange">
 		<div class="maxbtn"><span></span></div>
 		<div class="xbtn2">x</div>
+		<div class="reload-toutdoux"><i class="fas fa-sync-alt"></i></div>
 	</div>
 	<div class="content">
-		<iframe src="https://stevenbachimont.github.io/toutdoux/" frameborder="0"></iframe>
+		<iframe id="toutdoux-iframe" src="about:blank" frameborder="0"></iframe>
 	</div>
 </div>
 
@@ -139,10 +141,11 @@
 	<div class="topbar pug">
 		<div class="maxbtn"><span></span></div>
 		<div class="xbtn9">x</div>
+		<div class="reload-pug"><i class="fas fa-sync-alt"></i></div>
 	</div>
 	<div class="content">
-		<iframe src="https://stevenbachimont.github.io/pug-zone/" frameborder="0"></iframe>
-	</div>
+		<iframe id="pug-iframe" src="about:blank" frameborder="0"></iframe>
+		</div>
 </div>
 
 <div class="frame" id="sticky">

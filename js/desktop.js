@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('#menu').addClass('fermee0');
 	$('#video').addClass('fermee1');
-	$('#website').addClass('fermee2');
+	$('#toutdoux').addClass('fermee2');
 	$('#dev').addClass('fermee3');
 	$('#sticky').addClass('fermee4');
 	$('#terminal').addClass('fermee5');
@@ -54,12 +54,12 @@ $('#ouvrirVideo').click(function(){
 
 
 $('.xbtn2').click(function(){
-	$('#website').addClass('fermee2');
+	$('#toutdoux').addClass('fermee2');
 
 });
 
-$('#ouvrirWebsite').click(function(){
-	$('#website').removeClass('fermee2');
+$('#ouvrirtoutdoux').click(function(){
+	$('#toutdoux').removeClass('fermee2');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
@@ -140,6 +140,22 @@ $('#ouvrirpug').click(function (){
 });
 
 
+
+
+$("#ouvrirpug").click(function(){
+	$("#pug-iframe").attr("src", "https://stevenbachimont.github.io/pug-zone/");
+});
+$(".reload-pug").click(function(){
+	$("#pug-iframe").attr("src", $("#pug-iframe").attr("src"));
+});
+
+
+$("#ouvrirtoutdoux").click(function(){
+	$("#toutdoux-iframe").attr("src", "https://stevenbachimont.github.io/toutdoux/");
+});
+$(".reload-toutdoux").click(function(){
+	$("#toutdoux-iframe").attr("src", $("#toutdoux-iframe").attr("src"));
+});
 
 
 
