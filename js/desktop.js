@@ -9,6 +9,7 @@ $(document).ready(function() {
 	$('#artsnum').addClass('fermee6');
 	$('#apropos').addClass('fermee7');
 	$('#contact').addClass('fermee8');
+	$('#pug').addClass('fermee9');
 });
 
 
@@ -56,7 +57,6 @@ $('.xbtn2').click(function(){
 	$('#website').addClass('fermee2');
 
 });
-
 
 $('#ouvrirWebsite').click(function(){
 	$('#website').removeClass('fermee2');
@@ -128,6 +128,17 @@ $('#ouvrircontact').click(function (){
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
+
+$('.xbtn9').click(function (){
+	$('#pug').addClass('fermee9');
+});
+
+$('#ouvrirpug').click(function (){
+	$('#pug').removeClass('fermee9');
+	$(".active").removeClass("active");
+	$(this).addClass("active");
+});
+
 
 
 

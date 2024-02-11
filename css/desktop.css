@@ -62,6 +62,9 @@ body{
 .orange{
 	background: #f27937;
 }
+.pug{
+	background: #f27937;
+}
 .yellow{
 	background: #ffcc33;
 }
@@ -81,7 +84,7 @@ body{
 		border-color: #e7e7e7;
 	}
 
-.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8{
+.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -130,6 +133,10 @@ body{
 }
 
 .xbtn8:hover{
+	color: #ac9710;
+}
+
+.xbtn9:hover{
 	color: #ac9710;
 }
 	.content{
@@ -213,6 +220,11 @@ body{
 	left: 110px;
 }
 
+#pug{
+	top: 90px;
+	left: 110px;
+}
+
     #menu .content{
 	    width: 200px;
 	    height: 200px;
@@ -256,6 +268,12 @@ body{
 }
 
 #contact .content{
+	width: 500px;
+	height: 400px;
+	color: #d84cfd;
+}
+
+#pug .content{
 	width: 500px;
 	height: 400px;
 	color: #d84cfd;
@@ -309,6 +327,10 @@ body{
 }
 
 .frame.fermee8 {
+	display: none;
+}
+
+.frame.fermee9 {
 	display: none;
 }
 
