@@ -35,7 +35,6 @@ $('.maxbtn').click(function(){
 $('.xbtn0').click(function (){
 	 $('#menu').addClass('fermee0');
 });
-
 $('#ouvrirmenu').click(function (){
 	$('#menu').removeClass('fermee0');
 	$(".active").removeClass("active");
@@ -45,32 +44,42 @@ $('#ouvrirmenu').click(function (){
 $('.xbtn1').click(function(){
 	$('#video').addClass('fermee1');
 });
-
 $('#ouvrirVideo').click(function(){
 	$('#video').removeClass('fermee1');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
+$("#ouvrirVideo").click(function(){
+	$("#video1-iframe").attr("src", "//www.ultimedia.com/deliver/generic/iframe/mdtk/01921679/src/qsrqxlu/zone/1/showtitle/1/");
+});
+$(".reload-video1").click(function(){
+	$("#video1-iframe").attr("src", $("#video1-iframe").attr("src"));
+});
+$('.xbtn1').click(function(){
+	$("#video1-iframe").attr("src", "about:blank");
+});
+
 
 
 $('.xbtn2').click(function(){
 	$('#toutdoux').addClass('fermee2');
-
 });
-
 $('#ouvrirtoutdoux').click(function(){
 	$('#toutdoux').removeClass('fermee2');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
+$("#ouvrirtoutdoux").click(function(){
+	$("#toutdoux-iframe").attr("src", "https://stevenbachimont.github.io/toutdoux/");
+});
+$(".reload-toutdoux").click(function(){
+	$("#toutdoux-iframe").attr("src", $("#toutdoux-iframe").attr("src"));
+});
 
 
 $('.xbtn3').click(function(){
 	$('#dev').addClass('fermee3');
-
 });
-
-
 $('#ouvrirdev').click(function(){
 	$('#dev').removeClass('fermee3');
 	$(".active").removeClass("active");
@@ -92,27 +101,31 @@ $('#ouvrirSticky').click(function(){
 $('.xbtn5').click(function (){
 	$('#terminal').addClass('fermee5');
 });
-
 $('#ouvrirterminal').click(function (){
 	$('#terminal').removeClass('fermee5');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
+$("#ouvrirterminal").click(function(){
+	$("#terminal-iframe").attr("src", "https://stevenbachimont.github.io/terminal/");
+});
+$(".reload-terminal").click(function(){
+	$("#terminal-iframe").attr("src", $("#terminal-iframe").attr("src"));
+});
 
 $('.xbtn6').click(function (){
 	$('#artsnum').addClass('fermee6');
 });
-
 $('#ouvrirartsnum').click(function (){
 	$('#artsnum').removeClass('fermee6');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
 
+
 $('.xbtn7').click(function (){
 	$('#apropos').addClass('fermee7');
 });
-
 $('#ouvrirapropos').click(function (){
 	$('#apropos').removeClass('fermee7');
 	$(".active").removeClass("active");
@@ -122,7 +135,6 @@ $('#ouvrirapropos').click(function (){
 $('.xbtn8').click(function (){
 	$('#contact').addClass('fermee8');
 });
-
 $('#ouvrircontact').click(function (){
 	$('#contact').removeClass('fermee8');
 	$(".active").removeClass("active");
@@ -132,16 +144,11 @@ $('#ouvrircontact').click(function (){
 $('.xbtn9').click(function (){
 	$('#pug').addClass('fermee9');
 });
-
 $('#ouvrirpug').click(function (){
 	$('#pug').removeClass('fermee9');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
-
-
-
-
 $("#ouvrirpug").click(function(){
 	$("#pug-iframe").attr("src", "https://stevenbachimont.github.io/pug-zone/");
 });
@@ -150,12 +157,6 @@ $(".reload-pug").click(function(){
 });
 
 
-$("#ouvrirtoutdoux").click(function(){
-	$("#toutdoux-iframe").attr("src", "https://stevenbachimont.github.io/toutdoux/");
-});
-$(".reload-toutdoux").click(function(){
-	$("#toutdoux-iframe").attr("src", $("#toutdoux-iframe").attr("src"));
-});
 
 
 

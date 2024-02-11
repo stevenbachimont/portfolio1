@@ -84,7 +84,7 @@ body{
 		border-color: #e7e7e7;
 	}
 
-.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .reload-pug{
+.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -98,7 +98,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-pug, .reload-toutdoux{
+.reload-pug, .reload-toutdoux, .reload-terminal, .reload-video1{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -120,6 +120,17 @@ body{
 	color: #d50627;
 	scale: 110%;
 }
+
+.reload-terminal:hover{
+	color: #d50627;
+	scale: 110%;
+}
+
+.reload-video1:hover{
+	color: #d50627;
+	scale: 110%;
+}
+
 
 .xbtn0:hover{
 	color: #b49e11;
@@ -212,8 +223,8 @@ body{
 }
 
 #video{
-	top: 20px;
-	left: 10px;
+	top: 80px;
+	left: 300px;
 }
 
 #toutdoux{
@@ -258,8 +269,8 @@ body{
 	    right: 0;
     }
 	#video .content{
-		width: 300px;
-		height: 200px;
+		width: 400px;
+		height: 300px;
 	}
 	#toutdoux .content{
 		width: 550px;
