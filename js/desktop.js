@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#menu').addClass('fermee0');
-	$('#video').addClass('fermee1');
+	$('#videoDC').addClass('fermee1');
 	$('#toutdoux').addClass('fermee2');
 	$('#dev').addClass('fermee3');
 	$('#sticky').addClass('fermee4');
@@ -42,21 +42,21 @@ $('#ouvrirmenu').click(function (){
 });
 
 $('.xbtn1').click(function(){
-	$('#video').addClass('fermee1');
+	$('#videoDC').addClass('fermee1');
 });
-$('#ouvrirVideo').click(function(){
-	$('#video').removeClass('fermee1');
+$('#ouvrirVideoDC').click(function(){
+	$('#videoDC').removeClass('fermee1');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
-$("#ouvrirVideo").click(function(){
-	$("#video1-iframe").attr("src", "//www.ultimedia.com/deliver/generic/iframe/mdtk/01921679/src/qsrqxlu/zone/1/showtitle/1/");
+$("#ouvrirVideoDC").click(function(){
+	$("#videoDC-iframe").attr("src", "//www.ultimedia.com/deliver/generic/iframe/mdtk/01921679/src/qsrqxlu/zone/1/showtitle/1/");
 });
-$(".reload-video1").click(function(){
-	$("#video1-iframe").attr("src", $("#video1-iframe").attr("src"));
+$(".reload-videoDC").click(function(){
+	$("#videoDC-iframe").attr("src", $("#videoDC-iframe").attr("src"));
 });
 $('.xbtn1').click(function(){
-	$("#video1-iframe").attr("src", "about:blank");
+	$("#videoDC-iframe").attr("src", "about:blank");
 });
 
 

@@ -98,7 +98,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-pug, .reload-toutdoux, .reload-terminal, .reload-video1{
+.reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDC{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -126,7 +126,7 @@ body{
 	scale: 110%;
 }
 
-.reload-video1:hover{
+.reload-videoDC:hover{
 	color: #d50627;
 	scale: 110%;
 }
@@ -222,7 +222,7 @@ body{
 	left: 20px;
 }
 
-#video{
+#videoDC{
 	top: 80px;
 	left: 300px;
 }
@@ -268,7 +268,7 @@ body{
 	    height: 400px;
 	    right: 0;
     }
-	#video .content{
+	#videoDC .content{
 		width: 400px;
 		height: 300px;
 	}
