@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$('#apropos').addClass('fermee7');
 	$('#contact').addClass('fermee8');
 	$('#pug').addClass('fermee9');
-	$('#enr').addClass('fermee10');
+	$('#colors').addClass('fermee10');
 });
 
 
@@ -159,18 +159,12 @@ $(".reload-pug").click(function(){
 
 
 $('.xbtn10').click(function (){
-	$('#enr').addClass('fermee10');
+	$('#colors').addClass('fermee10');
 });
-$('#ouvrirenr').click(function (){
-	$('#enr').removeClass('fermee10');
+$('#ouvrirfenetrefantome').click(function (){
+	$('#colors').removeClass('fermee10');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
-});
-$("#ouvrirenr").click(function(){
-	$("#enr-iframe").attr("src", "https://stevenbachimont.github.io/enregistrer-pour-les-nuls/", "_blank");
-});
-$(".reload-enr").click(function(){
-	$("#enr-iframe").attr("src", $("#enr-iframe").attr("src"));
 });
 
 

@@ -33,7 +33,7 @@
 }
 
 
-#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideoDC, #ouvrirtoutdoux, #ouvrirSticky, #ouvrirpug, #ouvrirenr{
+#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideoDC, #ouvrirtoutdoux, #ouvrirSticky, #ouvrirpug, #ouvrircolors{
     border: transparent;
     position: relative;
     padding: 10px 10px;
@@ -114,7 +114,7 @@
     transition-delay: 200ms;
 }
 
-#ouvrirenr:hover {
+#ouvrircolors:hover {
     color: #050f1a;
     background: #d501f6;
     border-radius: 3px;

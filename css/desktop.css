@@ -65,7 +65,7 @@ body{
 .pug{
 	background: #f27937;
 }
-.enr{
+.colors{
 	background: #f27937;
 }
 .yellow{
@@ -101,7 +101,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-enr, .reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDC{
+.reload-colors, .reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDC{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -114,7 +114,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-enr:hover{
+.reload-colors:hover{
 	color: #d50627;
 	scale: 110%;
 }
@@ -270,7 +270,7 @@ body{
 	left: 110px;
 }
 
-#enr{
+#colors{
 	top: 90px;
 	left: 110px;
 }
@@ -329,9 +329,9 @@ body{
 		color: #d84cfd;
 	}
 
-	#enr .content{
-		width: 900px;
-		height: 400px;
+	#colors .content{
+		width: 600px;
+		height: 600px;
 		color: #d84cfd;
 	}
 
