@@ -16,7 +16,7 @@
 }
 
 #ouvrirmenu:hover {
-    color: #ee82f8;
+    color: #000000;
     background: #d501f6;
     border-radius: 10%;
     box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
@@ -24,7 +24,7 @@
     transition-delay: 200ms;
 }
 #ouvrirterminal:hover {
-    color: #ee82f8;
+    color: #000000;
     background: #d501f6;
     border-radius: 10%;
     box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;

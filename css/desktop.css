@@ -38,6 +38,19 @@ body{
 		margin-top: -3px;
 	}
 
+.titre{
+	padding: 2px 4px;
+	margin-right: 40%;
+	border-radius: 2px;
+	color: #e7dddd;
+	display: flex;
+	zoom: 1.0;
+	vertical-align: top;
+	font-family: 'helvetica', sans-serif;
+	font-size: 12px;
+	margin-top: -3px;
+}
+
 .menuu{
 	background: #863e91;
 }
@@ -115,26 +128,26 @@ body{
 }
 
 .reload-colors:hover{
-	color: #d50627;
+	color: #ff9900;
 	scale: 110%;
 }
 .reload-pug:hover{
-	color: #d50627;
+	color: #ff9900;
 	scale: 110%;
 }
 
 .reload-toutdoux:hover{
-	color: #d50627;
+	color: #ff9900;
 	scale: 110%;
 }
 
 .reload-terminal:hover{
-	color: #d50627;
+	color: #ff9900;
 	scale: 110%;
 }
 
 .reload-videoDC:hover{
-	color: #d50627;
+	color: #ff9900;
 	scale: 110%;
 }
 
@@ -221,18 +234,18 @@ body{
 	}
 
 #menu{
-	top: 40px;
+	top: 60px;
 	left: 5px;
 }
 
 #terminal{
-	top: 35px;
-	left: 15px;
+	top: 60px;
+	left: 300px;
 }
 
 #dev{
-	top: 45px;
-	left: 20px;
+	top: 80px;
+	left: 100px;
 }
 
 #videoDC{
@@ -251,8 +264,8 @@ body{
 }
 
 #artsnum{
-	top: 90px;
-	left: 110px;
+	top: 190px;
+	left: 130px;
 }
 
 #apropos{
@@ -296,7 +309,7 @@ body{
 		right: 0;
 	}
 	#dev .content{
-		width: 200px;
+		width: 300px;
 		height: 200px;
 		color: #d84cfd;
 	}
@@ -306,7 +319,7 @@ body{
 	}
 
     #artsnum .content{
-		width: 200px;
+		width: 250px;
 		height: 200px;
 		color: #d84cfd;
 	}
