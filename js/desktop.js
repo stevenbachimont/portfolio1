@@ -11,6 +11,7 @@ $(document).ready(function () {
 	$('#contact').addClass('fermee8');
 	$('#pug').addClass('fermee9');
 	$('#videoDCR').addClass('fermee10');
+	$('#calculcarbone').addClass('fermee11');
 });
 
 
@@ -66,7 +67,7 @@ $('.xbtn10').click(function () {
 });
 $('#ouvrirVideoDCR').click(function () {
 	$('#videoDCR').removeClass('fermee10');
-	$(".active").removeClass("active");
+	$(".active").removeClass("active");https://stevenbachimont.github.io/toutdoux/
 	$(this).addClass("active");
 });
 $("#ouvrirVideoDCR").click(function () {
@@ -93,6 +94,22 @@ $("#ouvrirtoutdoux").click(function () {
 });
 $(".reload-toutdoux").click(function () {
 	$("#toutdoux-iframe").attr("src", $("#toutdoux-iframe").attr("src"));
+});
+
+
+$('.xbtn11').click(function () {
+	$('#calculcarbone').addClass('fermee11');
+});
+$('#ouvrircalculcarbone').click(function () {
+	$('#calculcarbone').removeClass('fermee11');
+	$(".active").removeClass("active");
+	$(this).addClass("active");
+});
+$("#ouvrircalculcarbone").click(function () {
+	$("#calculcarbone-iframe").attr("src", "https://stevenbachimont.github.io/calcul-carbone/");
+});
+$(".reload-calculcarbone").click(function () {
+	$("#calculcarbone-iframe").attr("src", $("#calculcarbone-iframe").attr("src"));
 });
 
 

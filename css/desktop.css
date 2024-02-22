@@ -100,7 +100,7 @@ body{
 		border-color: #e7e7e7;
 	}
 
-.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .xbtn10{
+.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .xbtn10, .xbtn11{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -114,7 +114,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-colors, .reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDCR, .reload-videoDC{
+.reload-colors, .reload-pug, .reload-toutdoux, .reload-calculcarbone, .reload-terminal, .reload-videoDCR, .reload-videoDC{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -137,6 +137,11 @@ body{
 }
 
 .reload-toutdoux:hover{
+	color: #ff9900;
+	scale: 110%;
+}
+
+.reload-calculcarbone:hover{
 	color: #ff9900;
 	scale: 110%;
 }
@@ -197,6 +202,10 @@ body{
 }
 
 .xbtn10:hover{
+	color: #ac9710;
+}
+
+.xbtn11:hover{
 	color: #ac9710;
 }
 
@@ -267,6 +276,11 @@ body{
 	left: 50px;
 }
 
+#calculcarbone{
+	top: 150px;
+	left: 100px;
+}
+
 #sticky{
 	top: 200px;
 	left: 150px;
@@ -319,6 +333,11 @@ body{
 	#toutdoux .content{
 		width: 550px;
 		height: 400px;
+		right: 0;
+	}
+	#calculcarbone .content{
+		width: 550px;
+		height: 1000px;
 		right: 0;
 	}
 	#dev .content{
@@ -412,6 +431,9 @@ body{
 	display: none;
 }
 .frame.fermee10 {
+	display: none;
+}
+.frame.fermee11 {
 	display: none;
 }
 
