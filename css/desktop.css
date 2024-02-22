@@ -85,7 +85,7 @@ body{
 	background: #ffcc33;
 }
 .green{
-	background: #00ff91;
+	background: #0f6201;
 }
 
 	.maxbtn span{
@@ -114,7 +114,7 @@ body{
 	margin-top: -3px;
 }
 
-.reload-colors, .reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDC{
+.reload-colors, .reload-pug, .reload-toutdoux, .reload-terminal, .reload-videoDCR, .reload-videoDC{
 	padding: 2px 4px;
 	text-align: center;
 	border-radius: 2px;
@@ -151,6 +151,10 @@ body{
 	scale: 110%;
 }
 
+.reload-videoDCR:hover{
+	color: #ff9900;
+	scale: 110%;
+}
 
 .xbtn0:hover{
 	color: #b49e11;
@@ -253,6 +257,11 @@ body{
 	left: 300px;
 }
 
+#videoDCR{
+	top: 80px;
+	left: 300px;
+}
+
 #toutdoux{
 	top: 100px;
 	left: 50px;
@@ -300,6 +309,10 @@ body{
 	    right: 0;
     }
 	#videoDC .content{
+		width: 400px;
+		height: 300px;
+	}
+	#videoDCR .content{
 		width: 400px;
 		height: 300px;
 	}
@@ -386,23 +399,18 @@ body{
 .frame.fermee5 {
 	display: none;
 }
-
 .frame.fermee6 {
 	display: none;
 }
-
 .frame.fermee7 {
 	display: none;
 }
-
 .frame.fermee8 {
 	display: none;
 }
-
 .frame.fermee9 {
 	display: none;
 }
-
 .frame.fermee10 {
 	display: none;
 }

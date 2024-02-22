@@ -33,7 +33,7 @@
 }
 
 
-#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideoDC, #ouvrirtoutdoux, #ouvrirSticky, #ouvrirpug, #ouvrircolors{
+#ouvrircontact, #ouvrirapropos, #ouvrirartsnum, #ouvrirdev, #ouvrirVideoDC, #ouvrirVideoDCR, #ouvrirtoutdoux, #ouvrirSticky, #ouvrirpug, #ouvrircolors{
     border: transparent;
     position: relative;
     padding: 10px 10px;
@@ -59,6 +59,14 @@
 }
 
 #ouvrirVideoDC:hover {
+    color: #050f1a;
+    background: #d501f6;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #5d046b, 0 0 40px #863e91, 0 0 80px #d501f6;
+    transition-delay: 200ms;
+}
+
+#ouvrirVideoDCR:hover {
     color: #050f1a;
     background: #d501f6;
     border-radius: 3px;
