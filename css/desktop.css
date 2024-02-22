@@ -38,18 +38,18 @@ body{
 		margin-top: -3px;
 	}
 
-.titre{
-	padding: 2px 4px;
-	margin-right: 40%;
-	border-radius: 2px;
-	color: #e7dddd;
-	display: flex;
-	zoom: 1.0;
-	vertical-align: top;
-	font-family: 'helvetica', sans-serif;
-	font-size: 12px;
-	margin-top: -3px;
-}
+	.titre{
+		padding: 2px 4px;
+		margin-right: 40%;
+		border-radius: 2px;
+		color: #e7dddd;
+		display: flex;
+		zoom: 1.0;
+		vertical-align: top;
+		font-family: 'helvetica', sans-serif;
+		font-size: 12px;
+		margin-top: -3px;
+	}
 
 .menuu{
 	background: #863e91;
@@ -100,32 +100,32 @@ body{
 		border-color: #e7e7e7;
 	}
 
-.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .xbtn10, .xbtn11{
-	padding: 2px 4px;
-	text-align: center;
-	border-radius: 2px;
-	color: #333;
-	display: inline-block;
-	*display: inline;
-	zoom: 1.0;
-	vertical-align: top;
-	font-family: 'Days One', sans-serif;
-	font-size: 16px;
-	margin-top: -3px;
-}
+	.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .xbtn10, .xbtn11{
+		padding: 2px 4px;
+		text-align: center;
+		border-radius: 2px;
+		color: #333;
+		display: inline-block;
+		*display: inline;
+		zoom: 1.0;
+		vertical-align: top;
+		font-family: 'Days One', sans-serif;
+		font-size: 16px;
+		margin-top: -3px;
+	}
 
-.reload-colors, .reload-pug, .reload-toutdoux, .reload-calculcarbone, .reload-terminal, .reload-videoDCR, .reload-videoDC{
-	padding: 2px 4px;
-	text-align: center;
-	border-radius: 2px;
-	color: #333;
-	display: inline-block;
-	*display: inline;
-	zoom: 1.0;
-	vertical-align: top;
-	font-size: 16px;
-	margin-top: -3px;
-}
+	.reload-colors, .reload-pug, .reload-toutdoux, .reload-calculcarbone, .reload-terminal, .reload-videoDCR, .reload-videoDC{
+		padding: 2px 4px;
+		text-align: center;
+		border-radius: 2px;
+		color: #333;
+		display: inline-block;
+		*display: inline;
+		zoom: 1.0;
+		vertical-align: top;
+		font-size: 16px;
+		margin-top: -3px;
+	}
 
 .reload-colors:hover{
 	color: #ff9900;
@@ -246,6 +246,7 @@ body{
 		z-index: 999999;
 	}
 
+
 #menu{
 	top: 60px;
 	left: 5px;
@@ -310,6 +311,7 @@ body{
 	top: 90px;
 	left: 110px;
 }
+
 
     #menu .content{
 	    width: 200px;
@@ -400,6 +402,7 @@ body{
 		transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
 	}
 
+	
 .frame.fermee0 {
 	display: none;
 }
