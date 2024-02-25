@@ -127,12 +127,12 @@ $('.xbtn4').click(function () {
 	$('#sticky').addClass('fermee4');
 });
 
-
 $('#ouvrirSticky').click(function () {
 	$('#sticky').removeClass('fermee4');
 	$(".active").removeClass("active");
 	$(this).addClass("active");
 });
+
 
 $('.xbtn5').click(function () {
 	$('#terminal').addClass('fermee5');
