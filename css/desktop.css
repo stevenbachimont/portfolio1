@@ -24,6 +24,25 @@ body{
 		cursor: default;
 	}
 
+.maxbtr{
+	padding: 2px 4px;
+	text-align: center;
+	border-radius: 2px;
+	color: #3d3c3c;
+	display: inline-block;
+	*display: inline;
+	zoom: 1.2;
+	vertical-align: top;
+	font-family: 'Days One', sans-serif;
+	font-size: 16px;
+	margin-top: -3px;
+}
+
+.maxbtr:hover {
+	color: #ff9900;
+	scale: 140%;
+}
+
      .maxbtn{
 		padding: 2px 4px;
 		text-align: center;
@@ -37,6 +56,18 @@ body{
 		font-size: 16px;
 		margin-top: -3px;
 	}
+
+.maxbtn span{
+	display: block;
+	border: 1px solid #333;
+	border-top: 2px solid #333;
+	width: 9px;
+	height: 8px;
+	margin-top: 6px;
+}
+.maxbtn:hover span, .maximized .maxbtn span{
+	border-color: #e7e7e7;
+}
 
 	.titre{
 		padding: 2px 4px;
@@ -88,17 +119,7 @@ body{
 	background: #0f6201;
 }
 
-	.maxbtn span{
-		display: block;
-		border: 1px solid #333;
-		border-top: 2px solid #333;
-		width: 9px;
-		height: 8px;
-		margin-top: 6px;
-	}
-	.maxbtn:hover span, .maximized .maxbtn span{
-		border-color: #e7e7e7;
-	}
+
 
 	.xbtn0, .xbtn1, .xbtn2, .xbtn3, .xbtn4, .xbtn5, .xbtn6, .xbtn7, .xbtn8, .xbtn9, .xbtn10, .xbtn11{
 		padding: 2px 4px;
@@ -402,7 +423,7 @@ body{
 		transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
 	}
 
-	
+
 .frame.fermee0 {
 	display: none;
 }
