@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 *, *:after, *:before {
@@ -81,27 +82,10 @@ main {
     line-height: 6.25rem;
 }
 
-@media only screen and (min-width: 768px) {
-    .screensaver > .unlock {
-        display: block;
-    }
-    .screensaver > .unlockphone {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .screensaver > .unlock {
-        display: none;
-    }
-    .screensaver > .unlockphone {
-        display: block;
-    }
-}
-
 .screensaver > .unlock {
+    display: flex;
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translateX(-50%);
     color: #e300df;
@@ -109,15 +93,6 @@ main {
     animation: flash 1500ms ease infinite alternate;
 }
 
-.screensaver > .unlockphone {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #e300df;
-    -webkit-animation: flash 1500ms ease infinite alternate;
-    animation: flash 1500ms ease infinite alternate;
-}
 
 @-webkit-keyframes flash {
     0% {
@@ -158,3 +133,58 @@ a {
     text-decoration: none;
     color: #f8f8f8;
 }
+
+/* en_construction*/
+
+@keyframes width {
+    0%{transform: scaleX(0);width: 100%;}
+    25%{transform: scaleX(1); width: 100%;}
+    40%{transform: scaleX(1); width: 0;}
+    65%{transform: scaleX(1); width: 100%;}
+    85%{transform: scaleX(0); width: 100%;}
+    100%{transform: scaleX(0); width: 0;}
+}
+
+
+#annonce{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    position: relative;
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: #e164ea;
+}
+
+h2::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transform: scaleX(0);
+    background: #000;
+    transform-origin: right;
+    animation: width 6000ms ease infinite;
+}
+
+h2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    background: #000000;
+    transform-origin: right;
+    animation: width 6000ms ease infinite;
+}
+
