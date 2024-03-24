@@ -1,10 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
 :root {
     --vilet1: #8300a6;
     --vilet2: #d64ffa;
     --gris: #444;
     --noir: #000000;
+    --font: Roboto, sans-serif;
 }
-
 
 body {
     background: var(--noir);
@@ -55,7 +57,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display:block;
 }
-html, body {font-family: 'Lato', helvetica, arial, sans-serif; font-size: 11pt; color: #222;}
+html, body {font-family: var(--font); font-size: 11pt; color: #222;}
 .clear {clear: both;}
 p {
     line-height: 15pt;
