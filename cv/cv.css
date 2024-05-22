@@ -162,6 +162,9 @@ section:last-child {
     padding: 4mm 0 0 0;
 }
 .sectionTitle {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
     float: left;
     width: 50mm;
     margin-bottom:6mm;
@@ -181,6 +184,7 @@ section:last-child {
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 18pt;
+
 }
 .subDetails {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
