@@ -1,0 +1,30 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/HTML.svg"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/CSS.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/React-Dark.svg"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/NodeJS-Dark.svg"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/Docker.svg"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/MySQL-Dark.svg"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/Figma-Dark.svg"
+  }
+]

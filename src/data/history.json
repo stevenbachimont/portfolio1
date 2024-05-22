@@ -1,0 +1,31 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "R&V",
+    "startDate": "Sept, 2023",
+    "endDate": "Present",
+    "experiences": ["Data", "Charts"],
+    "imageSrc": "history/R&V.png"
+  },
+  {
+    "role": "Student",
+    "organisation": "Wild Code School",
+    "startDate": "Feb, 2024",
+    "endDate": "Jul, 2024",
+    "experiences": ["React", "Express", "Node.js", "MySQL"],
+    "imageSrc": "history/Wild.svg"
+  },
+  {
+    "role": "Digital Humanities Researcher",
+    "organisation": "Comet Lab",
+    "startDate": "Mar, 2020",
+    "endDate": "Aug, 2021",
+    "experiences": [
+      "Prototyping",
+      "Mixt Reality",
+        "Unity",
+      "Architectural Design"
+    ],
+    "imageSrc": "history/comet.png"
+  }
+]
