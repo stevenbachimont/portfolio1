@@ -8,9 +8,17 @@
     "source": "https://github.com/stevenbachimont/PageTest-Vite-react"
   },
   {
+    "title": "Jungle",
+    "imageSrc": "projects/Jungle.png",
+    "description": "Group project at school : visit the web differently + sound effect\n.",
+    "skills": ["2", "3", "4", "8"],
+    "demo": "https://dl9xc7-5173.csb.app/",
+    "source": "https://github.com/stevenbachimont/jungle"
+  },
+  {
     "title": "R&V",
     "imageSrc": "projects/r&v.png",
-    "description": "Personal Saas project for calculating our personal and team carbon footprint\n.",
+    "description": "Personal project for calculating our personal and team carbon footprint\n.",
     "skills": ["2", "3", "4", "5", "6", "8"],
     "demo": "https://retv.vercel.app/",
     "source": "https://github.com/stevenbachimont/retv"

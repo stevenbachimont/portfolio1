@@ -94,6 +94,12 @@
   font-weight: 500;
 }
 
+.historyItemDetails h2 {
+  font-size: 25px;
+  font-weight: 250;
+  color: #08e3cb;
+}
+
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;

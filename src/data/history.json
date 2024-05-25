@@ -4,7 +4,7 @@
     "organisation": "R&V",
     "startDate": "Sept, 2023",
     "endDate": "Present",
-    "experiences": ["Data", "Charts"],
+    "experiences": ["Data", "Charts", "React", "Node.js", "Express"],
     "imageSrc": "history/R&V.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "Wild Code School",
     "startDate": "Feb, 2024",
     "endDate": "Jul, 2024",
-    "experiences": ["React", "Express", "Node.js", "MySQL"],
+    "experiences": ["React", "Express", "Node.js", "MySQL","Documentation", "Agile", "Scrum", "Docker"],
     "imageSrc": "history/Wild.svg"
   },
   {
@@ -23,8 +23,9 @@
     "experiences": [
       "Prototyping",
       "Mixt Reality",
-        "Unity",
-      "Architectural Design"
+      "Unity",
+      "Architectural Design",
+        "3D Modelling"
     ],
     "imageSrc": "history/comet.png"
   }
