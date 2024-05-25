@@ -1,30 +1,47 @@
 [
   {
+    "id": "1",
     "title": "HTML",
     "imageSrc": "skills/HTML.svg"
   },
   {
+    "id": "2",
     "title": "CSS",
     "imageSrc": "skills/CSS.svg"
   },
   {
+    "id": "3",
     "title": "React",
     "imageSrc": "skills/React-Dark.svg"
   },
   {
+    "id": "4",
     "title": "Node",
     "imageSrc": "skills/NodeJS-Dark.svg"
   },
   {
+    "id": "5",
     "title": "Docker",
     "imageSrc": "skills/Docker.svg"
   },
   {
+    "id": "6",
     "title": "MySQL",
     "imageSrc": "skills/MySQL-Dark.svg"
   },
   {
+    "id": "7",
     "title": "Figma",
     "imageSrc": "skills/Figma-Dark.svg"
+  },
+  {
+    "id": "8",
+    "title": "GithubActions",
+    "imageSrc": "skills/GithubActions-Dark.svg"
+  },
+  {
+    "id": "9",
+    "title": "ExpressJS",
+    "imageSrc": "skills/ExpressJS-Dark.svg"
   }
 ]

@@ -1,8 +1,23 @@
-# React + Vite
+# Portfolio Steven BACHIMONT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my portfolio, it is a website that presents my work and my skills. It is composed of a home page, a portfolio page, a contact page and an about page. The website is responsive and adapts to all screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To install this project, you can clone it from this repository. You will need to have a web server installed on your computer to run the website. You can use WampServer, Mamp, Xampp or any other web server software.
+
+## Usage
+
+To use this project, you can open the index.html file in your web browser. You can also access the website online at the following address: [https://stevenbachimont.github.io/](https://stevenbachimont.github.io/)
+
+## Credits
+
+This project was made by Steven Bachimont. You can find me on [GitHub](
+
+## License
+
+This project is under the MIT license. You can find the license file in the repository.
+
+```

@@ -1,34 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
+    "title": "React_Vite_githubActions",
+    "imageSrc": "projects/testREACT.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["2", "3", "4", "8"],
+    "demo": "https://stevenbachimont.github.io/PageTest-Vite-react/",
+    "source": "https://github.com/stevenbachimont/PageTest-Vite-react"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "R&V",
+    "imageSrc": "projects/r&v.png",
+    "description": "Personal Saas project for calculating our personal and team carbon footprint\n.",
+    "skills": ["2", "3", "4", "5", "6", "8"],
+    "demo": "https://retv.vercel.app/",
+    "source": "https://github.com/stevenbachimont/retv"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project D",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Faketory",
+    "imageSrc": "projects/Faketory.png",
+    "description": "Group project at school : big work EXPRESS get & fetch !!\n.",
+    "skills": ["2", "3", "4", "8", "9"],
+    "demo": "https://faketory2.vercel.app/",
+    "source": "https://github.com/stevenbachimont/Faketory2"
   }
 ]
