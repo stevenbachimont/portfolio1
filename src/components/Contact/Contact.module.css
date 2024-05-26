@@ -13,7 +13,7 @@
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 4px;
 }
@@ -46,6 +46,21 @@
   letter-spacing: 1.5px;
 }
 
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li a:hover {
+  color: #ce6de8;
+  border-radius: 10px;
+}
+
+li>img {
+  width: 40px;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
@@ -58,9 +73,38 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  .text p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
   .links {
     align-items: center;
   }
+
+  .link a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li>img {
+    width: 20px;
+  }
+
 }
 
 .YourHighlightClass {

@@ -22,13 +22,5 @@
     "skills": ["2", "3", "4", "5", "6", "8"],
     "demo": "https://retv.vercel.app/",
     "source": "https://github.com/stevenbachimont/retv"
-  },
-  {
-    "title": "Faketory",
-    "imageSrc": "projects/Faketory.png",
-    "description": "Group project at school : big work EXPRESS get & fetch !!\n.",
-    "skills": ["2", "3", "4", "8", "9"],
-    "demo": "https://faketory2.vercel.app/",
-    "source": "https://github.com/stevenbachimont/Faketory2"
   }
 ]
