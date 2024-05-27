@@ -12,7 +12,7 @@
     "imageSrc": "projects/Jungle.png",
     "description": "Group project at school : visit the web differently + sound effect\n.",
     "skills": ["2", "3", "4", "8"],
-    "demo": "https://dl9xc7-5173.csb.app/",
+    "demo": "https://w4d9pl-5173.csb.app/",
     "source": "https://github.com/stevenbachimont/jungle"
   },
   {
@@ -20,7 +20,7 @@
     "imageSrc": "projects/r&v.png",
     "description": "Personal project for calculating our personal and team carbon footprint\n.",
     "skills": ["2", "3", "4", "5", "6", "8"],
-    "demo": "https://retv.vercel.app/",
+    "demo": "https://dh248v-3000.csb.app/",
     "source": "https://github.com/stevenbachimont/retv"
   },
   {
@@ -28,7 +28,7 @@
     "imageSrc": "projects/Faketory.png",
     "description": "Group project at school: with express backend and docker-compose deployment\n.",
     "skills": ["2", "3", "4", "5", "6", "8"],
-    "demo": "https://vcl2y8-3000.csb.app/",
+    "demo": "https://c2q56r-3000.csb.app/",
     "source": "https://github.com/stevenbachimont/Faketory2"
   }
 ]
