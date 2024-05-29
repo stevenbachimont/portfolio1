@@ -1,0 +1,75 @@
+{
+"hero":{
+  "title": "Hi, I'm Steven",
+  "description": "I'm a web developer with 1 year of experience using React, Express, MySQL and NodeJS. I'm learning, TypeScript, NextJS and Docker. Reach out if you'd like to learn more!",
+  "cvLink": "my CV",
+  "altText": "An image of me"
+},
+
+"about": {
+"title": "ABOUT ME",
+"frontendTitle": "Frontend Developer",
+"frontendDescription": "I'm a frontend developer and build responsive and optimized sites with React.js, Next.js and Typescript",
+"backendTitle": "Backend Developer",
+"backendDescription": "I have like developing fast and optimised back-end systems and APIs with Node.js, express and MySQL",
+"designerTitle": "UI Designer",
+"designerDescription": "I can designed landing pages and have created design systems as well with Figma and Excalidraw"
+},
+
+
+  "exp": {
+    "title": "Expérience",
+    "history": [
+      {
+        "role": "Fullstack developer",
+        "organisation": "R&V",
+        "startDate": "Sept, 2023",
+        "endDate": "Present",
+        "experiences": "Personal project with data science, social network and more",
+        "imageSrc": "history/R&V.png"
+      },
+      {
+        "role": "Student",
+        "organisation": "Wild Code School",
+        "startDate": "Feb, 2024",
+        "endDate": "Jul, 2024",
+        "experiences": "I perform expérience with fullstack technologies; React, Express, Mysql...",
+        "imageSrc": "history/Wild.svg"
+      },
+      {
+        "role": "Digital Humanities Researcher",
+        "organisation": "Comet Lab",
+        "startDate": "Mar, 2020",
+        "endDate": "Aug, 2021",
+        "experiences": "Prototyping, concept prove, augmented reality with unity, 3D modeling with blender",
+        "imageSrc": "history/comet.png"
+      }
+    ]
+  },
+
+  "proj": {
+    "title": "Projets",
+    "projects": [
+      {
+        "title": "React_Vite_githubActions",
+        "description": "This is a project made to learn the latest languages by building an app\n."
+      },
+      {
+        "title": "Jungle",
+        "description": "Group project at school : visit the web differently + sound effect\n."
+
+      },
+      {
+        "title": "R&V",
+        "description": "Personal project for calculating our personal and team carbon footprint\n."
+
+      },
+      {
+        "title": "Faketory",
+        "description": "Group project at school: with express backend and docker-compose deployment\n."
+
+      }
+    ]
+  }
+}
+

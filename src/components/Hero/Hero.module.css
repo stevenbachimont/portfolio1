@@ -41,18 +41,18 @@
 
 .contactBtn {
   text-decoration: none;
-  background-color: var(--color-primary);
   color: var(--color-text);
-  border-radius: 10px;
-  font-size: 30px;
+  border: whitesmoke 1px solid;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: rgba(34, 34, 34, 0);
+  padding: 1px 22px;
 }
 
 .contactBtn:hover {
   background-color: var(--color-primary);
-  color: var(--hoover);
+  color: var(--color-text);
   scale: 120%;
 }
 

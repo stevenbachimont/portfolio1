@@ -68,9 +68,16 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
+  border: whitesmoke 1px solid;
   font-size: 1rem;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
+  border-radius: 10px;
+  background: rgba(34, 34, 34, 0);
   padding: 1px 22px;
+}
+
+.link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  scale: 120%;
 }
