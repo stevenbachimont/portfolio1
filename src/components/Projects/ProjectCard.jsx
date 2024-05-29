@@ -13,6 +13,8 @@ export const ProjectCard = ({ project, id }) => {
 
     const filteredSkills = skillsData.filter((skill) => skills.includes(skill.id));
 
+
+
     return (
         <div className={styles.container}>
             <img
