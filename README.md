@@ -10,14 +10,12 @@ To install this project, you can clone it from this repository. You will need to
 
 ## Usage
 
-To use this project, you can open the index.html file in your web browser. You can also access the website online at the following address: [https://stevenbachimont.github.io/](https://stevenbachimont.github.io/)
+To use this project, you can open the index.html file in your web browser. You can also access the website online at the following address: [https://stevenbachimont.github.io/siteweb](https://stevenbachimont.github.io/siteweb)
 
 ## Credits
 
-This project was made by Steven Bachimont. You can find me on [GitHub](
+This project was made by Steven Bachimont. You can find me on [GitHub](https://github.com/stevenbachimont)
 
 ## License
 
 This project is under the MIT license. You can find the license file in the repository.
-
-```
