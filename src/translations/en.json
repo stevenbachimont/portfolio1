@@ -1,7 +1,7 @@
 {
 "hero":{
   "title": "Hi, I'm Steven",
-  "description": "I'm a web developer with 1 year of experience using React, Express, MySQL and NodeJS. I'm learning, TypeScript, NextJS and Docker. Reach out if you'd like to learn more!",
+  "description": "I'm a web developer with 1 year of experience using ReactJS, Express.js, MySQL and Node.js. I'm learning, TypeScript, NextJS and Docker. Reach out if you'd like to learn more!",
   "cvLink": "my CV",
   "altText": "An image of me"
 },
@@ -9,23 +9,23 @@
 "about": {
 "title": "ABOUT ME",
 "frontendTitle": "Frontend Developer",
-"frontendDescription": "I'm a frontend developer and build responsive and optimized sites with React.js, Next.js and Typescript",
+"frontendDescription": "I'm a frontend developer who builds responsive and optimized Websites with React.js, Next.js and Typescript",
 "backendTitle": "Backend Developer",
-"backendDescription": "I have like developing fast and optimised back-end systems and APIs with Node.js, express and MySQL",
+"backendDescription": "I like to develop fast and optimised backend systems and APIs with Node.js, express and MySQL",
 "designerTitle": "UI Designer",
-"designerDescription": "I can designed landing pages and have created design systems as well with Figma and Excalidraw"
+"designerDescription": "I have designed landing pages and created design interfaces with Figma and Excalidraw"
 },
 
 
   "exp": {
-    "title": "Experience",
+    "title": "Experiences",
     "history": [
       {
         "role": "Fullstack developer",
         "organisation": "R&V",
         "startDate": "Sept, 2023",
         "endDate": "Present",
-        "experiences": "Personal project with data science, social network and more",
+        "experiences": "Personal projects around data science, social network and more",
         "imageSrc": "history/R&V.png"
       },
       {
@@ -33,7 +33,7 @@
         "organisation": "Wild Code School",
         "startDate": "Feb, 2024",
         "endDate": "Jul, 2024",
-        "experiences": "I perform expérience with fullstack technologies; React, Express, Mysql...",
+        "experiences": "Learned fullstack technologies; ReactJS, Express.js, MySQL...",
         "imageSrc": "history/Wild.svg"
       },
       {
@@ -41,7 +41,7 @@
         "organisation": "Comet Lab",
         "startDate": "Mar, 2020",
         "endDate": "Aug, 2021",
-        "experiences": "Prototyping, concept prove, augmented reality with unity, 3D modeling with blender",
+        "experiences": "Prototyping, proof of concepts, augmented reality with Unity, 3D modeling with Blender",
         "imageSrc": "history/comet.png"
       }
     ]
@@ -52,7 +52,7 @@
     "projects": [
       {
         "title": "React_Vite_githubActions",
-        "description": "This is a project made to learn the latest languages by building an app\n."
+        "description": "This is a project made to learn latest languages by building an app\n."
       },
       {
         "title": "Jungle",
@@ -61,12 +61,12 @@
       },
       {
         "title": "R&V",
-        "description": "Personal project for calculating our personal and team carbon footprint\n."
+        "description": "Personal project to calculate our personal and team carbon footprint\n."
 
       },
       {
         "title": "Faketory",
-        "description": "Group project at school: with express backend and docker-compose deployment\n."
+        "description": "Group project at school: with Express.js backend deployed via docker-compose\n."
 
       }
     ]
