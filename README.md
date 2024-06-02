@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my portfolio, it is a website that presents my work and my skills. It is composed of a home page, a portfolio page, a contact page and an about page. The website is responsive and adapts to all screen sizes.
+This is my portfolio, it is a website which presents my work and my skills. It is composed of a home page, a portfolio page, a contact page and an about page. The website is responsive and adapts to all screen sizes.
 
 ## Installation
 
