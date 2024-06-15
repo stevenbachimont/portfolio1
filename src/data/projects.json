@@ -11,7 +11,7 @@
     "title": "Jungle",
     "imageSrc": "projects/Jungle.png",
     "description": "Group project at school : visit the web differently + sound effect\n.",
-    "skills": ["2", "3", "4", "8"],
+    "skills": ["2", "3", "4", "5", "8"],
     "demo": "https://w4d9pl-5173.csb.app/",
     "source": "https://github.com/stevenbachimont/jungle"
   },
