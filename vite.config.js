@@ -10,5 +10,12 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
+  server: {
+    host: true,
+    port: 8000,
+    watch: {
+      usePolling: true
+    },
+    }
 
 });
