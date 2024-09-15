@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
       <nav className={styles.navbar}>
         <a className={styles.title} >
-          Steven Bachimont <br/> -Portfolio-
+          Steven Bachimont <br/> -webdevelopper- <br/> -Portfolio-
         </a>
         <div className={styles.menu}>
           <img
