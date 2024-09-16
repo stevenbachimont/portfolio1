@@ -1,18 +1,9 @@
 [
   {
-    "title": "React_Vite_githubActions",
-    "imageSrc": "projects/testREACT.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["2", "3", "4", "8"],
-    "demo": "https://stevenbachimont.github.io/PageTest-Vite-react/",
-    "source": "https://github.com/stevenbachimont/PageTest-Vite-react"
-  },
-  {
     "title": "Jungle",
     "imageSrc": "projects/Jungle.png",
     "description": "Group project at school : visit the web differently + sound effect\n.",
     "skills": ["2", "3", "4", "8"],
-
     "source": "https://github.com/stevenbachimont/jungle"
   },
   {
@@ -28,7 +19,6 @@
     "imageSrc": "projects/Faketory.png",
     "description": "Group project at school : big work EXPRESS get & fetch !!\n.",
     "skills": ["2", "3", "4", "8", "9"],
-
     "source": "https://github.com/stevenbachimont/Faketory2"
   }
 ]
