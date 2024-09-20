@@ -1,8 +1,8 @@
-# Portfolio Steven BACHIMONT
+# Portfolio1 Steven BACHIMONT
 
 ## Description
 
-This is my portfolio, it is a website which presents my work and my skills. It is composed of a home page, a portfolio page, a contact page and an about page. The website is responsive and adapts to all screen sizes.
+This is my 1st portfolio, it is a website which presents my work and my skills. It is composed of a home page, a portfolio page, a contact page and an about page. The website is responsive and adapts to all screen sizes.
 
 ## Installation
 
@@ -10,7 +10,7 @@ To install this project, you can clone it from this repository. You will need to
 
 ## Usage
 
-To use this project, you can open the index.html file in your web browser. You can also access the website online at the following address: [https://stevenbachimont.github.io/siteweb](https://stevenbachimont.github.io/siteweb)
+Dont.
 
 ## Credits
 
