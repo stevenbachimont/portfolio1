@@ -17,10 +17,10 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Build Docker image
-        run: docker build --no-cache -t stevenbachimont/portfolio:latest .
+        run: docker build --no-cache -t stevenbachimont/portfolio1:latest .
 
       - name: Push Docker image
-        run: docker push stevenbachimont/portfolio:latest
+        run: docker push stevenbachimont/portfolio1:latest
 
   deploy:
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
           port: 22
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /root/siteweb
+            cd /root/portfolio1
             git pull origin main
             docker-compose down
             docker-compose build web
