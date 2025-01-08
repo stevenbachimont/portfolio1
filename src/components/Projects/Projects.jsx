@@ -7,7 +7,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
     const { t } = useTranslation();
-    const [projects, setProjects] = useState(projectsData); // Define state for projects
+    const [projects, setProjects] = useState(projectsData); 
 
     useEffect(() => {
         const setProjectsData = () => {
@@ -15,10 +15,10 @@ export const Projects = () => {
             setProjects(isSmallScreen ? smallProjectsData : projectsData);
         };
 
-        setProjectsData(); // Set initial data
-        window.addEventListener('resize', setProjectsData); // Update data when screen size changes
+        setProjectsData(); 
+        window.addEventListener('resize', setProjectsData); 
 
-        // Cleanup function to remove the event listener when the component unmounts
+        
         return () => {
             window.removeEventListener('resize', setProjectsData);
         };
