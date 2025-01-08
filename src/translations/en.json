@@ -51,10 +51,6 @@
     "title": "Projets",
     "projects": [
       {
-        "title": "React_Vite_githubActions",
-        "description": "This is a project made to learn latest languages by building an app\n."
-      },
-      {
         "title": "Jungle",
         "description": "Group project at school : visit the web differently + sound effect\n."
 
